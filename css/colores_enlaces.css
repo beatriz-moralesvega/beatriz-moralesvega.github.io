@@ -1,0 +1,302 @@
+<style type="text/css">
+            *{
+                 margin:0px;
+                 padding:0px;
+             }
+             header,nav,main,footer{
+                 width: 100%;
+                 margin-left: auto;
+                 margin-right: auto;
+                 padding: 30px;
+            }
+            header{
+                background-color: #3D3340;
+                color:#F2F2F2;
+                text-align: center;
+            }
+             nav{
+                 height:55px;
+                 background-color:#F2E2CE;
+                 color: #F2BBBB;
+             }
+             nav ul{
+                text-align: center;
+             }
+             nav ul li{
+                 display: inline-block;
+                 width: 80px;
+                 background-color: #F2F2F2;
+                 color:#3D3340;
+                 padding:10px;
+             }
+             main{
+                 height:auto;
+                 background-color:#F2BBBB;
+                 color: #F2F2F2;
+             }
+             section{
+                 width: 80%;
+                 height: auto;
+                 background-color:#732944;
+                 margin-bottom: 20px;
+                 margin-left: auto;
+                 margin-right: auto;
+                 padding: 30px;
+             }
+             footer{
+                 height: 30px;
+                 background-color:#3D3340;
+                 color: #F2F2F2;
+                 text-align: center;
+             }
+             img{
+                display:block;
+                width:400px;
+                height: auto;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+             }
+             h2{
+                 margin-bottom: 30px;
+             }
+table{
+    color: #F2F2F2;
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid #F2F2F2;
+    border-collapse: separate;
+    border-spacing: 10 px;
+}
+.tabla1{
+    width: 1000px;
+    border-collapse: collapse;
+}
+.tabla1 th{
+    background-color: #3D3340;
+    height: 50px;
+}
+.tabla1 tbody{
+    background-color: #F2F2F2;
+    color:#000000;
+}
+.tabla1 td{
+    padding: 5px;
+    text-align: center;
+    height: 40px;
+    margin: 20px;
+}
+.tabla1 td, -tabla1 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3D3340;
+}
+#tabla1{
+    width: 150%;
+}
+#tabla2{
+    width: 890px;
+    border-collapse: collapse;
+}
+#tabla2 thead tr th{
+    background-color: #3D3340;
+}
+#tabla2 tr:nth-child(even){
+    background-color: #C9ABAA;
+    
+}
+#tabla2 tbody tr:nth-child(odd){
+    background-color: #A8AAAF;
+}
+
+#tabla3{
+    width: 890px;
+    border-collapse: collapse;
+}
+#tabla3 thead tr th{
+    background-color: #614750;
+}
+#tabla3 td{
+    padding: 5px;
+    text-align: center;
+    height: 20px;
+    margin: 20px;
+}
+#tabla3 tbody{
+    background-color: #A8003A;
+    color:#F2F2F2;
+}
+#tabla3 td, #tabla3 th{
+    border-width: 5px;
+    border-style: solid;
+    border-color: #C9ABAA;
+}
+#tabla3 tr:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+#clarkconbufanda_img{
+    width:160px;
+    height:auto;
+    float:right;
+    padding-left: 20px;
+}
+p{
+    margin-bottom: 15px;
+}
+#clarkconaretes_img{
+    width: 150px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+#bunny_ico{
+    display:block;
+    margin-left: auto;
+    margin-right: 0;
+}
+#bunny2_img{
+    height: auto;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img_filtros{
+    text-align: center;
+}
+#img_filtros img{
+    width: 30%;
+    height:auto;
+    margin:10px;
+    display: inline-block;
+}
+#filtro1{
+    filter: brightness(200%);
+}
+#filtro2{
+    filter:contrast(50%);
+}
+#filtro3{
+    filter: grayscale(100%);
+}
+#filtro4{
+    filter:sepia(100%); 
+}
+#filtro5{
+    filter: saturate(150%);
+}
+#filtro6{
+    filter: opacity(40%);
+}
+#filtro7{
+    filter: invert(100%);
+}
+#filtro8{
+    filter: blur(5px);
+}
+#filtro9{
+    filter: drop-shadow(8px 8px 8px red);
+}
+#filtro10{
+    filter: sepia(90%) saturate(410%);
+}
+#filtro11{
+    filter: hue-rotate(90deg);
+}
+#filtro12{
+    filter: blur(1px) hue-rotate(300deg);
+}
+#form1 {
+	width: 50%;
+	padding: 30px;
+	height: 255px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F594B2
+}
+label {
+	color: #1C5560;
+    font-weight: bolder;
+}
+#form1 input[type=text], #form1 input[type=password] {
+    width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #FBFFCD;
+	color: #0D393E;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#form1 input[type=submit] {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 30%;
+	height: 30px;
+	background-color: #0D393E;
+	padding: 0;
+	color: #FBFFCD;
+}
+#form2 {
+	width: 50%;
+	padding: 30px;
+	height: 800px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F594B2;
+}
+label {
+	color: #1C5560;
+    font-weight: bolder;
+}
+#form input[type=text], #form2 input[type=password] {
+    width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #FBFFCD;
+	color: #530822;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#form input[type=submit] {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 30%;
+	height: 30px;
+	background-color: #0D393E;
+	padding: 0;
+	color: #FBFFCD;
+}
+#form input[type=radio] {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 30%;
+	height: 30px;
+	background-color: #0D393E;
+	padding: 0;
+	color: #FBFFCD;
+}
+#form input[type=color] {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 30%;
+	height: 30px;
+	background-color: #0D393E;
+	padding: 0;
+	color: #FBFFCD;
+}
+</style>

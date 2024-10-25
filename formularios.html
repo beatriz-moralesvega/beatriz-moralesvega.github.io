@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario sobre mi boyband fav</title>
+<link href="css/colores_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<h1>Formularios sobre mi boyband fav</h1>
+</header>
+<nav>
+  <ul>
+                <li><a href="index.html">Sobre mí</a></li>
+                <li><a href="enlaces.html">Boyband</a></li>
+                <li><a href="listas_css.html">Países</a></li>
+                <li><a href="imagenes.html">Clark</a></li>
+                <li><a href="tablas.html">Animales</a></li>
+                <li><a href="audio.html">Épocas</a></li>
+                <li><a href="videos.html">Pueblos</a></li>
+                <li><a href="formularios.html">Formulario</a></li>
+  </ul>
+</nav>
+<main>
+	<section>
+		<h2>Mi boyband fav</h2>
+	  <p>Este es un pequeño formulario acerca de BTS, mi boyband fav desde 2018.</p>
+	  <form id="form2" name="form2" method="get">
+			<label for="textfield">Nombre:</label>
+			<input name="name" type="text" id="nombre">
+			<label for="surnames">Apellidos</label>
+			<input name="surnames" type="surnames" id="surnames">
+			<label for="age">Edad:</label>
+  			<input type="number" id="age" name="age" min="18" max="99" required>
+			
+		  <label>Genero:&nbsp;</label>
+		  <p>
+			  <label>
+    			<input type="radio" name="genero" value="masculino" id="genero_0"> Masculino</label>
+				 <br>
+			<label>
+    			<input type="radio" name="genero" value="femenino" id="genero_1"> Femenino</label>
+				 <br>
+  		</p>
+            <label>¿Te gusta el género del Kpop? Indica en un rango del 1 al 5, siendo 5 igual a me encanta.</label>
+          <input type="range" name="rango" min="1" max="5" step="1">
+          
+          <label>¿Te parece un grupo llamativo BTS? Indicalo en una escala del 1 al 2, siendo 1 "sí" y 2 "no".</label>
+          <input type="range" name="rango" min="1" max="2" list="lista-rango">
+          <datalist id="lista-rango">
+            <option value="1"></option>
+            <option value="2"></option>
+        </datalist>
+          
+          <label>¿Qué canción en solitario de cada integrante de BTS te gusta más?</label>
+          <input type="radio" name="boton" value="1">Namjoon- Wild Flower<br>
+          <input type="radio" name="boton" value="2">Jin- The Astronaut<br>
+          <input type="radio" name="boton" value="3">Yoongi- Amygdala<br>
+          <input type="radio" name="boton" value="2">J-Hope- Lock/Unlock<br>
+          <input type="radio" name="boton" value="3">Jimin- Who<br>
+          <input type="radio" name="boton" value="2">V- Friends<br>
+          <input type="radio" name="boton" value="3">Jungkook- Somebody<br>
+          
+          <label>Basado en tu respuesta anterior, ¿por qué te gusta más esa canción?</label>
+         <textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
+          
+          <label>¿Qué canción o canciones de BTS te gustan más? Puedes escoger una o varias.</label>
+          <select name="menu[]" size="5" multiple>
+            <option value="1">Blood, sweat and tears</option>
+            <option value="2">Butter</option>
+            <option value="3">Butterfly</option>
+            <option value="4">Run</option>
+            <option value="5">Dynamite</option>
+            <option value="1">HOME</option>
+            <option value="2">Black Swan</option>
+            <option value="3">Like</option>
+            <option value="4">Fake love</option>
+            <option value="5">BTS Cypher 4</option>
+        </select>
+          
+		 <label>¿Con qué color asocias a BTS?</label> 
+		  <input type="color" />
+			<input type="submit" name="submit2" id="submit2" value="Enviar">
+		</form>
+	</section>
+</main>
+<footer>
+  <h5>Elaborado por Beatriz Elena Morales Vega</h5>
+</footer>
+</body>
+</html>
